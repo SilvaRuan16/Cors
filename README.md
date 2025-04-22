@@ -1,66 +1,72 @@
-Projeto Costs
-Descrição
-O Costs é um projeto desenvolvido com base em um tutorial do YouTube. Ele tem como objetivo auxiliar no controle de gastos de um projeto, permitindo a adição de múltiplos serviços associados a ele. Com esta aplicação, é possível gerenciar orçamentos, custos e serviços de forma prática e eficiente.
-Funcionalidades
+📊 Projeto Costs
+📝 Descrição
+O Costs é uma aplicação desenvolvida com base em um tutorial do YouTube, com o objetivo de praticar e aprofundar conhecimentos em desenvolvimento web utilizando React.js.
+O sistema permite gerenciar projetos, controlando orçamentos e adicionando múltiplos serviços a cada projeto de forma prática e intuitiva.
 
-Criação e edição de projetos com orçamento definido.
-Adição de serviços a um projeto, com nome, custo e descrição.
-Controle de gastos, verificando se os custos dos serviços ultrapassam o orçamento.
-Interface amigável para visualização e gerenciamento de projetos e serviços.
+⚙️ Funcionalidades
+✅ Criação e edição de projetos com orçamento definido
 
-Pré-requisitos
-Antes de executar o projeto, certifique-se de ter instalado:
+✅ Adição de serviços a um projeto, com nome, custo e descrição
+
+✅ Controle de gastos: impede que os custos ultrapassem o orçamento do projeto
+
+✅ Interface amigável para visualização e gerenciamento de projetos e serviços
+
+📋 Pré-requisitos
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 Node.js (versão recomendada: LTS)
+
 npm (gerenciador de pacotes do Node.js)
 
-Instruções de Instalação e Execução
-Siga os passos abaixo para executar o projeto localmente:
-
-Clone o repositório:
+🚀 Instalação e Execução
+1. Clone o repositório
+bash
+Copiar
+Editar
 git clone <URL_DO_REPOSITORIO>
 cd costs
-
-
-Instale as dependências:
+2. Instale as dependências
+bash
+Copiar
+Editar
 npm install
-
-
-Execute o frontend:Para iniciar a interface do projeto (view), use o comando:
+3. Execute o frontend
+bash
+Copiar
+Editar
 npm run dev
+A aplicação estará disponível em: http://localhost:5173
 
-A aplicação estará disponível em http://localhost:5173 (ou outra porta, conforme indicado no terminal).
-
-Execute o backend:Para iniciar a API local, use o comando:
+4. Execute o backend (API simulada)
+bash
+Copiar
+Editar
 npm run backend
+A API estará disponível em: http://localhost:5000
 
-A API estará disponível em http://localhost:5000.
+Observação: mantenha os dois comandos rodando em terminais separados.
 
-
-Observações
-
-Certifique-se de que ambos os comandos (npm run dev e npm run backend) estejam rodando simultaneamente em terminais separados.
-Caso encontre erros, verifique se todas as dependências foram instaladas corretamente e se as portas 5173 (frontend) e 5000 (backend) estão livres.
-
-Tecnologias Utilizadas
-
-Frontend:
+🧪 Tecnologias Utilizadas
+Frontend
 React.js
-Vite (para desenvolvimento rápido)
-React Router (para navegação)
-CSS Modules (para estilização)
 
+Vite
 
-Backend:
-JSON Server (API simulada)
+React Router
 
+CSS Modules
 
-Outras bibliotecas:
+Backend
+JSON Server (API fake)
+
+Outras Bibliotecas
 UUID (para geração de IDs únicos)
 
-
-
-Estrutura do Projeto
+📁 Estrutura de Pastas
+pgsql
+Copiar
+Editar
 costs/
 ├── src/
 │   ├── components/
@@ -72,16 +78,19 @@ costs/
 ├── public/
 ├── package.json
 ├── README.md
+🤝 Como Contribuir
+Faça um fork deste repositório
 
-Como Contribuir
+Crie uma nova branch: git checkout -b minha-feature
 
-Faça um fork do projeto.
-Crie uma branch para sua feature (git checkout -b minha-feature).
-Commit suas mudanças (git commit -m 'Adiciona minha feature').
-Envie para o repositório remoto (git push origin minha-feature).
-Abra um Pull Request.
+Faça suas alterações e commits: git commit -m 'feat: adiciona minha feature'
 
-Agradecimentos
-Este projeto foi criado com base em um tutorial do YouTube, com o objetivo de aprendizado e prática em desenvolvimento web com React.
-Licença
-Este projeto é de código aberto e está disponível sob a MIT License.
+Envie para o repositório remoto: git push origin minha-feature
+
+Abra um Pull Request
+
+🙏 Agradecimentos
+Este projeto foi desenvolvido com base em um tutorial do YouTube, servindo como uma ótima base para estudos e práticas no desenvolvimento de aplicações web com React.
+
+📄 Licença
+Este projeto está licenciado sob a MIT License.
